@@ -15,10 +15,9 @@ jQuery(document).ready(function($){
 
   		e.preventDefault();
 
-	   	if ( $.trim( $('#idea-factory--entryform_title').val() ) === '' || $.trim( $('#idea-factory--entryform_description').val() ) === '' ) {
-	        $(results).html('Title and description are required.');
+	   	if ( $.trim( $('#idea-factory--entryform_title').val() ) === '' ) {
+	        $(results).html('Cal é o nome que propós?');
 	        $this.find('input').css('border-color','#d9534f');
-	        $this.find('textarea').css('border-color','#d9534f');
 	        return false;
 	    }
 

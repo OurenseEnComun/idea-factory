@@ -38,7 +38,7 @@ class ideaFactoryProcessEntry {
 			if ( wp_verify_nonce( $_POST['nonce'], 'if-entry-nonce' ) ) {
 
 				// bail if we dont have rquired fields
-				if ( empty( $title ) || empty( $desc ) ) {
+				if ( empty( $title ) ) {
 
 					printf(('<div class="error">%s</div>'), __('Whoopsy! Looks like you forgot the Title and/or description.', 'idea-factory'));
 
