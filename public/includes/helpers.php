@@ -370,7 +370,7 @@ if ( !function_exists('idea_factory_submit_modal') ):
 								<?php do_action('idea_factory_inside_form_top');?>
 
 								<label for="idea-title"><?php apply_filters('idea_factory_form_title', _e('Title','idea-factory'));?></label>
-								<input id="idea-factory--entryform_title" type="text" name="idea-title" value="" placeholder="My Awesome Submission">
+								<input id="idea-factory--entryform_title" type="text" name="idea-title" value="" placeholder="A miña proposta de nome">
 
 								<?php do_action('idea_factory_inside_form_bottom');?>
 
